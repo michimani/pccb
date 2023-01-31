@@ -10,6 +10,7 @@ fn main() {
 fn solve(no: &str) {
     match no {
         "02001" => solutions::s02001::solve(),
+        "02002" => solutions::s02002::solve(),
         _ => println!("solution {} is not found.", no),
     }
 }
